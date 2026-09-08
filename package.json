@@ -1,0 +1,33 @@
+{
+  "name": "auditlock-js",
+  "version": "1.0.0",
+  "description": "Zero-dependency tamper-evident cryptographic audit ledger and Merkle compliance engine for SOC2, HIPAA, and ISO 27001",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "auditlock": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "benchmark": "node benchmarks/benchmark.js",
+    "cli": "node src/cli.js"
+  },
+  "keywords": [
+    "audit-log",
+    "merkle-tree",
+    "cryptography",
+    "compliance",
+    "soc2",
+    "hipaa",
+    "tamper-evident",
+    "blockchain-primitives",
+    "zero-dependency",
+    "rfc-6962"
+  ],
+  "author": "David Selorm Walker",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
